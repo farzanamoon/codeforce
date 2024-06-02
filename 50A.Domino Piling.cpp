@@ -5,5 +5,6 @@ int main()
     int m,n;
     cin>>m>>n;
     int mul=(m*n)/2;
-    cout<<mul;
+    cout<<mul<<endl;
+    return 0;
 }
