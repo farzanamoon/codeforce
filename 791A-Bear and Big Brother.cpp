@@ -11,5 +11,5 @@ int main()
     year++;
     }
 
-    cout<<year;
+    cout<<year<<endl;
 }
