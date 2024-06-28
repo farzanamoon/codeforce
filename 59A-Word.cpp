@@ -18,9 +18,12 @@ int main()
         }
         cout<<s<<endl;
     }
- else{
+ if(low>=up){
+        for(i=0;i<s.size();i++){
     s[i]=tolower(s[i]);
-    cout<<s<<endl;}
+    }
+    cout<<s<<endl;
+ }
 
     return 0;
 }
